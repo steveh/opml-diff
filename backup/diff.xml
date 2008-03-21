@@ -1,0 +1,33 @@
+NZTech...
+
+Intertwingly...
+
+<?xml version="1.0" encoding="UTF-8"?>
+<opml>
+  <head>
+    <title>OPMLDiff</title>
+    <dateModified>Fri Mar 07 16:47:08 +1300 2008</dateModified>
+    <ownerName>Steve Hoeksema</ownerName>
+    <ownerEmail>steve@seven.net.nz</ownerEmail>
+  </head>
+  <body>
+    <outline type="rss" title="Ian's SharePoint Blog" text="Ian Morrish" xmlUrl="http://feeds.feedburner.com/wssdemoblog"/>
+    <outline type="rss" title="Be the signal" text="Jeff Waugh" xmlUrl="http://bethesignal.org/feed/"/>
+    <outline type="rss" title="LibraryTechNZ" text="LibraryTechNZ" xmlUrl="http://feeds.feedburner.com/Librarytechnz"/>
+    <outline type="rss" title="Enterprise 2.0 New Zealand style" text="Mike Riversdale (Enterprise 2.0)" xmlUrl="http://feeds.feedburner.com/NZ_Enterprise20"/>
+    <outline type="rss" title="McGOVERN ONLINE" text="Paul Reynolds" xmlUrl="http://feeds.feedburner.com/blogspot/yHiT"/>
+    <outline type="rss" title="Simon Chamberlain's library weblog" text="Simon Chamberlain" xmlUrl="http://feeds.feedburner.com/Valis"/>
+    <outline type="rss" title="rc3.org" text="Rafe Colburn" xmlUrl="http://rc3.org/feed/atom/"/>
+    <outline type="rss" title="Frank Wierzbicki's Weblog" text="Frank Wierzbicki" xmlUrl="http://fwierzbicki.blogspot.com/feeds/posts/default"/>
+    <outline type="rss" title="Dare Obasanjo aka Carnage4Life" text="Dare Obasanjo" xmlUrl="http://www.25hoursaday.com/weblog/SyndicationService.asmx/GetRss"/>
+    <outline type="rss" title="Lauren Cooney's Blog" text="Lauren Cooney" xmlUrl="http://cooney.typepad.com/lauren_cooneys_blog/atom.xml"/>
+    <outline type="rss" title="GotzeBlogged" text="John G&#248;tze" xmlUrl="http://gotze.eu/feed/atom"/>
+    <outline type="rss" title="Anarchogeek - Home" text="Evan Henshaw-Plath" xmlUrl="http://www.anarchogeek.com/feed/atom.xml"/>
+    <outline type="rss" title="Flack's Revenge" text="Bob Geller" xmlUrl="http://feeds.feedburner.com/flacksrevenge/Nbyo"/>
+    <outline type="rss" title="Be the signal" text="Jeff Waugh" xmlUrl="http://bethesignal.org/feed/atom/"/>
+    <outline type="rss" title="Dave Orchard's Blog" text="Dave Orchard" xmlUrl="http://www.pacificspirit.com/blog/atom.xml"/>
+    <outline type="rss" title="Agylen" text="Ugo Cei" xmlUrl="http://agylen.com/feed/atom/"/>
+    <outline type="rss" title="Graham Glass, etc." text="Graham Glass" xmlUrl="http://grahamglass.blogs.com/main/atom.xml"/>
+    <outline type="rss" title="Project Astoria Team Blog" text="Astoria Team Blog" xmlUrl="http://blogs.msdn.com/astoriateam/atom.xml"/>
+  </body>
+</opml>

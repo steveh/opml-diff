@@ -1,0 +1,47 @@
+#!/usr/bin/ruby
+
+# ompldiff
+# Author: Steve Hoeksema <steve@seven.net.nz>
+#         http://www.seven.net.nz
+# License: Creative Commons Attribution-Share Alike 3.0 New Zealand
+#          http://creativecommons.org/licenses/by-sa/3.0/nz/
+
+require 'rubygems'
+require "rexml/document"
+require 'open-uri'
+
+if ARGV.size != 2
+  $stderr.puts "opmldiff 0.1"
+  $stderr.puts "Usage:"
+  $stderr.puts "opmldiff <OPML1> <OPML2>"
+  $stderr.puts "Example:"
+  $stderr.puts "opmldiff /path/to/opml.xml http://www.example.com/opml.xml"
+  $stderr.puts
+  exit
+end
+
+existing_opml_path, new_opml_path = ARGV
+
+begin
+  existing_feeds = []
+  existing_opml = REXML::Document.new open(existing_opml_path)
+  existing_opml.elements.each('/opml/body/outline') do |feed|
+    existing_feeds << feed.attributes['xmlUrl']
+  end
+rescue
+  $stderr.puts "#{existing_opml_path} broken"
+  exit
+end
+
+begin
+  new_feeds = []
+  new_opml = REXML::Document.new open(new_opml_path)
+  new_opml.elements.each('/opml/body/outline') do |feed|
+	  feed.parent.delete(feed) if existing_feeds.include? feed.attributes['xmlUrl']
+  end  
+rescue
+  $stderr.puts "#{new_opml_path} broken"
+  exit
+end
+
+new_opml.write $stdout, 2
