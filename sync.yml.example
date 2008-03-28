@@ -1,0 +1,4 @@
+- local: intertwingly.xml
+  remote: http://planet.intertwingly.net/opml.xml
+- local: nztech.xml
+  remote: http://planet.nztech.org/opml.xml
